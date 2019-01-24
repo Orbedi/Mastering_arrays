@@ -9,6 +9,7 @@ class Text():
 
     # Gives the position within the text in which the EXACT “occurrence” (minding cases) has been firstly found.
     def indexOf(self, occurrence):
+        result = [0] * (text.__len__() + 1)
         return
 
     #  A word or group of words that is the same when you read it forwards from the beginning or backwards from the end
@@ -22,6 +23,10 @@ class Text():
     # Counts the words that have a length grater than wordLength
     def countWords(self, wordLendth):
         return
+
+    # Print text
+    def print_text(self):
+        return text
 
     # Constructor
     def __init__(self, characters):
